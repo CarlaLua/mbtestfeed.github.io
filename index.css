@@ -1,0 +1,58 @@
+h1 {
+    color: rgb(56, 55, 55);
+    background-color: white;
+    font-family: sans-serif;
+    width: 200px;
+    padding: 20px 500px 10px 10px;
+    margin: 0;
+}
+
+img {
+    width: 175px;
+}
+
+label {
+    color: white;
+    background-color: orange;
+    border-radius: 5%;
+    margin: 20px 10px 5px;
+    width: 140px;
+}
+
+input {
+    height: 30px;
+    margin: 5px 10px;
+    width: 150px;
+}
+
+input, label {
+    font-family: sans-serif;
+    padding: 10px 5px;
+    display: block;
+}
+
+button {
+    color: orange;
+    background-color: white;
+    padding: 10px 5px;
+    border: 2px solid orange;
+    margin: 10px;
+    border-radius: 5%;
+    display: block;
+    width: 150px;
+}
+
+body {
+    box-sizing: border-box;
+    background-image: url(../images/background\ image.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 500px;
+}
+
+#total {
+    border: 2px solid orange;
+    background-color: white;
+    opacity: 80%;
+    font-weight: bold;
+}
